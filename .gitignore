@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+training/outputs/
+
+# Node / VS Code
+node_modules/
+out/
+dist/
+*.vsix
+.vscode-test/
+
+# Secrets & Environment
+.env
+.env.local
+
+# OS Files
+.DS_Store
+Thumbs.db
