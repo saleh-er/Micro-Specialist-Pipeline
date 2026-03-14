@@ -2,7 +2,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import LoraConfig, get_peft_model
 
-model_id = "meta-llama/Meta-Llama-3.1-8B"
+model_id = "mistralai/Mistral-7B-v0.3"
 
 # 1. 4-bit Quantization Config
 bnb_config = BitsAndBytesConfig(
